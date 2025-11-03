@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Haj Ltaief Mohamed — Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Portfolio de Haj Ltaief Mohamed — Full-Stack Developer (Angular, Laravel, React, Spring Boot)"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5b57a7d9e4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="logo" href="#home"
+          >Haj Ltaief Mohamed<span class="dot">.</span></a
+        >
+        <nav class="nav" id="nav">
+          <a href="#about">À propos</a>
+          <a href="#projects">Projets</a>
+          <a href="#experience">Expérience</a>
+          <a href="#skills">Compétences</a>
+          <a href="#certificates">Certificats</a>
+          <a href="#contact">Contact</a>
+          <a class="btn" href="CV-Med-web-dev.pdf" download>Télécharger CV</a>
+        </nav>
+        <button id="btn-menu" class="menu-btn" aria-label="Ouvrir le menu de navigation">☰</button>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-left">
+          <p class="eyebrow">Bonjour — Je suis</p>
+          <h1 class="name">
+            Haj Ltaief Mohamed <span class="neon">Full-Stack</span>
+          </h1>
+          <p class="subtitle">
+            Full-Stack Developer — Angular · Laravel · JavaScript · Spring Boot ·
+            Html5 · CSS3
+          </p>
+          <p class="lead">
+            Technicien supérieur en informatique appliquée à la gestion,
+            passionné par la création d’applications web performantes et
+            évolutives.
+          </p>
+          <div class="cta">
+            <a class="cta-primary" href="#projects">Voir mes projets</a>
+            <a class="cta-ghost" href="mailto:medltaief128@gmail.com"
+              >Contacter</a
+            >
+          </div>
+        </div>
+
+        <aside class="hero-right">
+          <div class="card profile-card">
+            <div class="photo-wrap">
+              <img src="photo.jpg" alt="Photo de Haj Ltaief Mohamed" />
+            </div>
+            <div class="card-body">
+              <h3>Full-Stack Developer</h3>
+              <div class="tech-icons">
+                <i class="devicon-angularjs-plain colored" title="Angular"></i>
+                <i class="devicon-laravel-plain colored" title="Laravel"></i>
+                <i
+                  class="devicon-javascript-plain colored"
+                  title="JavaScript"
+                ></i>
+                <i class="devicon-spring-plain colored" title="Spring Boot"></i>
+                <i class="devicon-html5-plain colored" title="HTML5"></i>
+                <i class="devicon-css3-plain colored" title="CSS3"></i>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap">
+        <h2 class="section-title">À propos</h2>
+        <p class="about-lead">
+          Diplômé en Informatique appliquée à la gestion (FSEG Sfax, 2025), je
+          suis un développeur full-stack passionné par la création d’expériences
+          web modernes, performantes et centrées sur l’utilisateur. À travers
+          mes projets académiques et professionnels, j’ai acquis une solide
+          expérience dans le développement d’applications web complètes, en
+          maîtrisant à la fois la conception d’interfaces dynamiques (front-end)
+          et la gestion des données côté serveur (back-end). Curieux et motivé,
+          j’aime relever de nouveaux défis techniques, apprendre en continu et
+          transformer des idées en solutions digitales concrètes. Mon objectif
+          est de concevoir des applications utiles, esthétiques et fiables, tout
+          en contribuant à des projets collaboratifs au sein d’équipes
+          innovantes.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="section dark">
+      <div class="wrap">
+        <h2 class="section-title">Projets récents</h2>
+        <div class="projects-grid">
+          <article class="project card neon-card">
+            <h3>Gestion des Ressources Humaines (PFE)</h3>
+            <div class="carousel" data-project="grh">
+              <div class="slides">
+                <img src="photoGRH/Image10.png" class="active" alt="Aperçu projet GRH 1" />
+                <img src="photoGRH/Image2.png" alt="Aperçu projet GRH 2" />
+                <img src="photoGRH/Image1.png" alt="Aperçu projet GRH 3" />
+                <img src="photoGRH/Image3.png" alt="Aperçu projet GRH 4" />
+                <img src="photoGRH/Image4.png" alt="Aperçu projet GRH 5" />
+                <img src="photoGRH/Image5.png" alt="Aperçu projet GRH 6" />
+                <img src="photoGRH/Image6.png" alt="Aperçu projet GRH 7" />
+                <img src="photoGRH/Image7.png" alt="Aperçu projet GRH 8" />
+                <img src="photoGRH/rh2.jpg" alt="Aperçu projet GRH 9" />
+              </div>
+              <button class="prev" aria-label="Image précédente">&#10094;</button>
+              <button class="next" aria-label="Image suivante">&#10095;</button>
+              <div class="carousel-dots"></div>
+            </div>
+            <p>
+              <strong>Plateforme RH</strong> pour la gestion des employés,
+              congés, présences et performances.
+            </p>
+            <ul >
+              <li>Conception UML et développement Angular / Laravel</li>
+              <li>Intégration MySQL et API REST sécurisée</li>
+              <li>Module automatique de suivi de présence</li>
+              <li>Gestion des congés et évaluations de performance</li>
+              <li>Interface utilisateur responsive et intuitive</li>
+              <li>Optimisation des flux RH pour une meilleure efficacité</li>
+            </ul>
+            <div class="tech-icons">
+              <i class="devicon-angularjs-plain colored" title="Angular"></i>
+              <i class="devicon-laravel-plain colored" title="Laravel"></i>
+              <i class="devicon-mysql-plain colored" title="MySQL"></i>
+            </div>
+          </article>
+
+          <article class="project card neon-card">
+            <h3>Gestion d'un club de football</h3>
+            <div class="carousel" data-project="foot">
+              <div class="slides">
+                <img src="foot/foot1.png" class="active" alt="Aperçu projet Foot 1" />
+                <img src="foot/foot2.png" alt="Aperçu projet Foot 2" />
+                <img src="foot/foot3.png" alt="Aperçu projet Foot 3" />
+                <img src="foot/foot4.png" alt="Aperçu projet Foot 4" />
+                <img src="foot/foot5.png" alt="Aperçu projet Foot 5" />
+                <img src="foot/foot6.png" alt="Aperçu projet Foot 6" />
+                <img src="foot/foot7.png" alt="Aperçu projet Foot 7" />
+                <img src="foot/foot8.png" alt="Aperçu projet Foot 8" />
+                <img src="foot/foot9.png" alt="Aperçu projet Foot 9" />
+              </div>
+              <button class="prev" aria-label="Image précédente">&#10094;</button>
+              <button class="next" aria-label="Image suivante">&#10095;</button>
+              <div class="carousel-dots"></div>
+            </div>
+            <p>
+              Application web pour gérer matches, équipes et joueurs (Angular +
+              Spring Boot).
+            </p>
+            <ul>
+              <li>Conception et gestion des entités du club (joueurs, équipes, matchs).</li>
+              <li>API REST pour la synchronisation Front-End/Back-End.</li>
+            </ul>
+            <div class="tech-icons">
+              <i class="devicon-angularjs-plain colored" title="Angular"></i>
+              <i class="devicon-spring-plain colored" title="Spring Boot"></i>
+            </div>
+          </article>
+
+          <article class="project card neon-card">
+            <h3>Application de restaurant</h3>
+            <div class="carousel" data-project="restaurant">
+              <div class="slides">
+                <img src="res/res1.png" class="active" alt="Aperçu projet Restaurant 1" />
+                <img src="res/res2.png" alt="Aperçu projet Restaurant 2" />
+                <img src="res/res3.png" alt="Aperçu projet Restaurant 3" />
+                <img src="res/res4.png" alt="Aperçu projet Restaurant 4" />
+                <img src="res/res6.png" alt="Aperçu projet Restaurant 5" />
+                <img src="res/res7.png" alt="Aperçu projet Restaurant 6" />
+                <img src="res/res8.png" alt="Aperçu projet Restaurant 7" />
+                <img src="res/res9.png" alt="Aperçu projet Restaurant 8" />
+              </div>
+              <button class="prev" aria-label="Image précédente">&#10094;</button>
+              <button class="next" aria-label="Image suivante">&#10095;</button>
+              <div class="carousel-dots"></div>
+            </div>
+            <p>
+              Gestion des menus et avis clients avec interface responsive et API
+              sécurisée.
+            </p>
+            <ul>
+              <li>Développement Front-End Angular pour l'interface utilisateur.</li>
+              <li>Back-End basé sur Laravel pour la gestion des menus et commandes.</li>
+            </ul>
+            <div class="tech-icons">
+              <i class="devicon-angularjs-plain colored" title="Angular"></i>
+              <i class="devicon-laravel-plain colored" title="Laravel"></i>
+            </div>
+          </article>
+
+          <article class="project card neon-card">
+            <h3>Service clientèle — Atelier de réparation</h3>
+            <div class="carousel" data-project="reparation">
+              <div class="slides">
+                <img src="rep/rep1.png" class="active" alt="Aperçu projet Réparation 1" />
+                <img src="rep/rep2.png" alt="Aperçu projet Réparation 2" />
+                <img src="rep/rep3.png" alt="Aperçu projet Réparation 3" />
+                <img src="rep/rep4.png" alt="Aperçu projet Réparation 4" />
+                <img src="rep/rep5.png" alt="Aperçu projet Réparation 5" />
+                <img src="rep/rep6.png" alt="Aperçu projet Réparation 6" />
+                <img src="rep/rep7.png" alt="Aperçu projet Réparation 7" />
+                <img src="rep/rep8.png" alt="Aperçu projet Réparation 8" />
+                <img src="rep/rep9.png" alt="Aperçu projet Réparation 9" />
+                <img src="rep/rep10.png" alt="Aperçu projet Réparation 10" />
+                <img src="rep/rep11.png" alt="Aperçu projet Réparation 11" />
+                <img src="rep/rep12.png" alt="Aperçu projet Réparation 12" />
+                <img src="rep/rep13.png" alt="Aperçu projet Réparation 13" />
+              </div>
+              <button class="prev" aria-label="Image précédente">&#10094;</button>
+              <button class="next" aria-label="Image suivante">&#10095;</button>
+              <div class="carousel-dots"></div>
+            </div>
+            <p>
+              Application React + Spring Boot pour le suivi des clients et
+              réparations.
+            </p>
+            <ul>
+              <li>Gestion des clients et des appareils à réparer.</li>
+              <li>Génération automatique de fiches de réparation, d’étiquettes et de factures.</li>
+              <li>Saisie des détails de réparation (commentaires, durée, pièces utilisées).</li>
+              <li>Développement Java (backend et interfaces graphiques).</li>
+            </ul>
+            <div class="tech-icons">
+              <i class="devicon-react-original colored" title="React"></i>
+              <i class="devicon-spring-plain colored" title="Spring Boot"></i>
+            </div>
+          </article>
+
+          <article class="project card neon-card">
+            <h3>Réservation d'hôtel</h3>
+            <p>
+              Site de réservation PHP/MySQL avec gestion des rôles et tableau de
+              bord admin.
+            </p>
+            <ul>
+              <li>Création d’une application web de réservation de chambres d’hôtel avec gestion des rôles (visiteur, client, admin).</li>
+              <li>Gestion dynamique des chambres et validation des réservations par l'administrateur.</li>
+              <li>Mise en œuvre du modèle d'architecture **MVC**.</li>
+              <li>Utilisation de **PHP** pour la logique serveur et **MySQL** pour les données.</li>
+            </ul>
+            <div class="tech-icons">
+              <i class="devicon-php-plain colored" title="PHP"></i>
+              <i class="devicon-mysql-plain colored" title="MySQL"></i>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="wrap">
+        <h2 class="section-title">Expérience</h2>
+        <div class="timeline">
+          <div class="timeline-item card neon-card">
+            <h4>Formation Full-Stack — CrocoCoder</h4>
+            <span class="date">11/2025 – 12/2025 — Tunis</span>
+            <ul>
+              <li>Développement d'applications complètes (Front/Back).</li>
+              <li>Intégration Angular + Spring Boot via API REST sécurisées.</li>
+              <li>Développement d’applications web complètes en architecture Front-End / Back-End.</li>
+              <li>Liaison du front-end Angular avec le back-end Spring Boot via des API REST sécurisées.</li>
+              <li>Conception et mise en œuvre de la gestion des données (CRUD).</li>
+              <li>Réalisation d’un projet “Gestion d’un club de football”.</li>
+              <li>Réalisation d’un projet “Application de restaurant”.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item card neon-card">
+            <h4>Stage PFE — ALL SOFT MULTIMEDIA</h4>
+            <span class="date">01/02/2025 – 31/04/2025 — Sfax</span>
+            <ul>
+              <li>Conception et développement de la plateforme RH (Angular + Laravel).</li>
+              <li>Gestion des employés, congés et suivi de présence automatisé.</li>
+              <li>Suivi des présences et absences : enregistrement automatique des entrées/sorties.</li>
+              <li>Gestion des congés et demandes : soumission, validation et suivi.</li>
+              <li>Évaluation et suivi de carrière : suivi des performances.</li>
+              <li>Gestion sécurisée des utilisateurs : rôles et permissions.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section dark">
+      <div class="wrap">
+        <h2 class="section-title">Compétences</h2>
+        <div class="skills-grid">
+          <div class="skill card neon-card">
+            <h4><i class="devicon-java-plain colored"></i> Langages</h4>
+            <p>Java, JavaScript, PHP, HTML5, CSS3</p>
+          </div>
+          <div class="skill card neon-card">
+            <h4><i class="devicon-angularjs-plain colored"></i> Frameworks</h4>
+            <p>Laravel, Angular, Spring Boot, React</p>
+          </div>
+          <div class="skill card neon-card">
+            <h4>
+              <i class="devicon-mysql-plain colored"></i> Bases de données
+            </h4>
+            <p>MySQL, PL/SQL, SQL Server</p>
+          </div>
+          <div class="skill card neon-card">
+            <h4><i class="devicon-git-plain colored"></i> Outils</h4>
+            <p>Git, UML , Github </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <div class="wrap">
+        <h2 class="section-title">Certificats</h2>
+        <div class="certificates-grid">
+          <div class="certificate card neon-card">
+            <a href="certificat-marketing.jpg" target="_blank" rel="noopener noreferrer"
+              ><img
+                src="certificat-marketing.jpg"
+                alt="Certificat Marketing Digital Google"
+            /></a>
+            <div class="cert-info"><h4>Marketing Digital — Google</h4></div>
+          </div>
+          <div class="certificate card neon-card">
+            <a href="certificat-scrum.jpg" target="_blank" rel="noopener noreferrer"
+              ><img src="certificat-scrum.jpg" alt="Certificat SCRUM Fundamentals"
+            /></a>
+            <div class="cert-info"><h4>Fundamentals of SCRUM</h4></div>
+          </div>
+          <div class="certificate card neon-card">
+            <a href="certificat-ethical.jpg" target="_blank" rel="noopener noreferrer"
+              ><img src="certificat-ethical.jpg" alt="Certificat Ethical Hacker Cisco"
+            /></a>
+            <div class="cert-info"><h4>Ethical Hacker — Cisco</h4></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="wrap contact-wrap">
+        <div class="contact-card card neon-card">
+          <h2>Contact</h2>
+          <p>Contacte-moi pour toute opportunité ou collaboration.</p>
+          <ul class="contact-list">
+            <li>
+              <strong>Email:</strong>
+              <a href="mailto:medltaief128@gmail.com">medltaief128@gmail.com</a>
+            </li>
+            <li>
+              <strong>Tél:</strong>
+              <a href="tel:+21694155750">+216 94 155 750</a>
+            </li>
+            <li>
+              <strong>Github:</strong>
+              <a
+                href="https://github.com/med-Belhadj"
+                target="_blank"
+                rel="noopener noreferrer"
+                >github.com/med-Belhadj</a
+              >
+            </li>
+            <li>
+              <strong>Linkedin:</strong>
+              <a
+                href="https://www.linkedin.com/in/mohamed-haj-ltaief-3b0ba7249/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >linkedin.com/in/mohamed-haj-ltaief-3b0ba7249</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+      <span class="lightbox-close">&times;</span>
+      <div class="lightbox-content">
+        <button class="lightbox-prev" aria-label="Image précédente">&#10094;</button>
+        <img id="lightbox-image" src="" alt="Aperçu du projet agrandi" />
+        <button class="lightbox-next" aria-label="Image suivante">&#10095;</button>
+        <div id="lightbox-caption" class="lightbox-caption"></div>
+      </div>
+    </div>
+    
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Haj Ltaief Mohamed — Full-Stack Developer</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
